@@ -190,9 +190,6 @@ def music():
                     rate=RATE,
                     input=True,
                     frames_per_buffer=CHUNK)
-
-    print("* recording")
-
     frames = []
     while True:
         data = stream.read(CHUNK)
@@ -207,8 +204,6 @@ def music():
             for j in range(level):
                 cube[j][i / 4][i % 4] = 1
         tick(0)
-
-    print("* done recording")
 
     stream.stop_stream()
     stream.close()
