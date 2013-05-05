@@ -2,8 +2,9 @@
 arduino/python control of 4x4x4 LED cube
 
 Components:
-	- Arduino driver to read LED state from serial stream of bytes.
-	- Python code to generate effects and send to Arduino via serial.
+
+* Arduino driver to read LED state from serial stream of bytes.
+* Python code to generate effects and send to Arduino via serial.
 
 ## setup
 1. Compile and upload `cuber.c` to Arduino. 
