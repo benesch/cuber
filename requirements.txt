@@ -1,0 +1,7 @@
+PyAudio==0.2.7
+matplotlib==1.2.1
+numpy==1.7.1
+pygame==1.9.2pre
+pyserial==2.6
+scipy==0.12.0
+wsgiref==0.1.2
